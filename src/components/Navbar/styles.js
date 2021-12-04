@@ -1,0 +1,36 @@
+import { makeStyles } from '@material-ui/core/styles';
+
+const drawerWidth = 0;
+
+export default makeStyles((theme) => ({
+  appBar: {
+    color: 'white',
+    boxShadow: 'none',
+    background: '#1C2331',
+    borderBottom: '1px solid rgba(0, 0, 0, 0.12)',
+    [theme.breakpoints.up('sm')]: {
+      width: `calc(100% - ${drawerWidth}px)`,
+      marginLeft: drawerWidth,
+    },
+
+  },
+  title: {
+    flexGrow: 1,
+    alignItems: 'center',
+    display: 'flex',
+    textDecoration: 'none',
+    '&:hover': {
+      color: '#ffff',
+      boxShadow: 'none',
+    },
+
+  },
+  image: {
+    marginRight: '10px',
+  },
+  grow: {
+    flexGrow: 1,
+  },
+}));
+
+

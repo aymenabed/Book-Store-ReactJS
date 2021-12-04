@@ -1,0 +1,48 @@
+.MuiContainer-root.book-view {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 150px 0 0 0;
+  }
+  
+  .book-view .image-wrapper img {
+    width: 100%;
+    padding: 5% 20% 10% 20%;
+  }
+  
+  .book-view .text {
+    color: #000;
+    text-align: justify !important;
+  }
+  
+  .book-view .text h2 {
+    color: #000;
+    font-size: 30px;
+  }
+  
+  .book-view .text h3 {color: #000;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .MuiContainer-root.book-view .custom-button {
+    color: white;
+    background-color: #1C2331;
+  }
+  
+  .MuiContainer-root.book-view .custom-button:hover {
+    color: white;
+    background-color: #2a344a;
+  }
+  
+  .MuiContainer-root.product-view .custom-button svg {
+    margin-right: 10px;
+  }
+  
+  
+  .product-view .MuiGrid-root .MuiGrid-item {
+    padding: 5px 15px;
+  }
+  
